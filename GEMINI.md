@@ -1,6 +1,7 @@
-# Chandigarh Highway Disaster Dataset (CHD-HDD)
+# Chandigarh Highway Disasters Risk Map
 
-This project aims to create a comprehensive dataset of highway disasters across a specific geospatial "box" around Chandigarh, India.
+This project aims to create a comprehensive risk map of highway disasters across a specific geospatial "box" around Chandigarh, India.
+
 
 ## Geospatial Scope
 The study area encompasses Chandigarh, Mohali, Panchkula, and key stretches of **NH5** and **NH44**.
