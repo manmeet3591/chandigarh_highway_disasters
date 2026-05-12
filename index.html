@@ -195,7 +195,7 @@
     }).addTo(map);
 
     // Load Highways
-    fetch('data/chandigarh_highways.geojson')
+    fetch('data/processed/chandigarh_highways.geojson')
         .then(res => res.json())
         .then(data => {
             L.geoJSON(data, {
@@ -211,7 +211,8 @@
         });
 
     // Load Blackspots
-    fetch('data/chandigarh_blackspots.geojson')
+    fetch('data/processed/chandigarh_blackspots.geojson')
+
         .then(res => res.json())
         .then(data => {
             L.geoJSON(data, {
